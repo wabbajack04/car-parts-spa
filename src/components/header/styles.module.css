@@ -1,0 +1,16 @@
+.container {
+  align-items: center;
+  display: flex;
+  font-size: 24px;
+  gap: 10px;
+  padding: 0 20px;
+}
+
+.logo {
+  background: url(../../assets/racing-logo.svg);
+  background-position: 49% 30%;
+  background-size: 320%;
+  cursor: pointer;
+  height: 60px;
+  width: 60px;
+}

@@ -1,0 +1,6 @@
+.container {
+  background-color: #9fd3c7;
+  color: #fff;
+  display: grid;
+  place-items: center;
+}
