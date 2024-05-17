@@ -11,11 +11,7 @@ export default function ProductCard({
   return (
     <div className={styles.container}>
       <h3 className={styles.title}>{title}</h3>
-      <img
-        src={`../public/products/${image}`}
-        alt={title}
-        className={styles.picture}
-      />
+      <img src={`/products/${image}`} alt={title} className={styles.picture} />
       <i>Стоимость: {price} ₽</i>
       <div className={styles.description}>{description}</div>
     </div>
