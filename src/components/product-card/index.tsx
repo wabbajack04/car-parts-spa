@@ -12,7 +12,7 @@ export default function ProductCard({
     <div className={styles.container}>
       <h3 className={styles.title}>{title}</h3>
       <img
-        src={`/src/assets/products/${image}`}
+        src={`/assets/products/${image}`}
         alt={title}
         className={styles.picture}
       />
